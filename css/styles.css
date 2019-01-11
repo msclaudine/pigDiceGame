@@ -1,0 +1,61 @@
+body {
+  font-family: serif;
+  color: #000000;
+}
+
+.navbar-inverse {
+  background-color: #000000;
+}
+
+#intro-content {
+  color: #000000;
+  background-color: #ffffff;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#content {
+  display: none;
+  color: #000000;
+  background-color: #ffffff;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#win {
+  display: none;
+  color: #000000;
+  background-color: #ffffff;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.page-header {
+  font-size: 65pt;
+  margin-bottom: 75px;
+  padding-bottom: 35px;
+}
+
+h1 {
+  font-size: 35pt;
+  padding-bottom: 30px;
+}
+
+#dicebox-marg {
+  margin-right: -90px;
+}
+
+#names-row {
+  margin-right: 35px;
+  margin-left: 25px;
+}
+
+#p2input-name {
+  margin-left: 15px;
+}
+
+#turn-message {
+  color: #cc3333;
+  margin-top: -20px;
+  text-align: left;
+}
