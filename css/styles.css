@@ -74,11 +74,15 @@ h1 {
   margin-top: 35px;
   margin-left: 20px;
   font-size: 15pt;
+  background-color: silver;
+  border-color: silver;
 }
 
 #restart-btn {
   font-size: 15pt;
   margin-top: 35px;
+  background-color: #337ab7;
+  border-color: #337ab7;
 }
 
 .btn-primary {
@@ -109,12 +113,6 @@ p {
   padding-bottom: 25px;
   font-size: 15pt;
 }
-
-.rules {
-  margin-left: 75px;
-  margin-right: 75px;
+#p2-name {
+  padding-right: 40px;
 }
-
-/* #footer {
-  margin-top: 100px;
-} */
