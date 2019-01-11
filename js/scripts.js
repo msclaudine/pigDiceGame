@@ -67,3 +67,18 @@ $(document).ready(function() {
     newPlayer2.rollDice();
     $("#p2-turnscore").text(newPlayer2.turnScore);
   });
+  $("#p2-hold").click(function() {
+    newPlayer2.hold();
+    newPlayerName.pName();
+    $("#p2-score").text(newPlayer2.totalScore);
+    $("#p2-turnscore").text(0);
+    if (newPlayer2.totalScore >= 100) {
+      $("#winner-name").text(newPlayerName.name2 + " Wins!");
+      $("#win").fadeToggle();
+      $("#content").fadeToggle();
+    } else {
+      $("#turn-message").text("It's " + newPlayerName.name1 + "'s turn!");
+      $("#p2-roll, #p2-hold").prop("disabled", true);
+      $("#p1-roll, #p1-hold").prop("disabled", false);
+    }
+  });
