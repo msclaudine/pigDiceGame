@@ -60,6 +60,17 @@ h1 {
   text-align: left;
 }
 
+#die-box {
+  width: 100px;
+  height: 100px;
+  background: rosybrown;
+  border: rosybrown;
+  color: #ffffff;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 65px;
+}
+
 #p1-roll,
 #p1-hold,
 #p2-roll,
