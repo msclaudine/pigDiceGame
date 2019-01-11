@@ -59,3 +59,51 @@ h1 {
   margin-top: -20px;
   text-align: left;
 }
+
+#p1-roll,
+#p1-hold,
+#p2-roll,
+#p2-hold {
+  margin-top: 35px;
+  margin-left: 20px;
+  font-size: 15pt;
+}
+
+#restart-btn {
+  font-size: 15pt;
+  margin-top: 35px;
+}
+
+.btn-primary {
+  font-size: 25pt;
+  margin-top: 20px;
+}
+
+#startgame-btn {
+  margin-top: 125px;
+}
+
+#reset-gamepage,
+#reset-winpage {
+  width: 100%;
+}
+
+.btn-info {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+input {
+  margin-bottom: -50px;
+}
+
+p {
+  margin-top: -45px;
+  padding-bottom: 25px;
+  font-size: 15pt;
+}
+
+.rules {
+  margin-left: 75px;
+  margin-right: 75px;
+}
