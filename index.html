@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PIG DICE GAME</title>
+  </head>
+
+  <body>
+ <!-- <div class="jumbotron" id="intro-content"> -->
+    <h1 class="page-header">Welcome to the Pig Dice web game!</h1>
+      
+    <form id="names-row"> 
+      <!-- <div class="row"> -->
+        <!-- <div class="col-xs-6"> -->
+          <h3><strong>Player 1's Name:</strong></h3><input required class="form-control input-lg" type="text" id="p1input-name">
+        </div>
+        <!-- <div class="col-xs-6"> -->
+          <h3><strong>Player 2's Name:</strong></h3><input required class="form-control form-control-danger input-lg" type="text" id="p2input-name">
+        </div>
+        <button type="submit" class="btn btn-primary" id="startgame-btn">Start Game!</button>
+      <!-- </div> -->
+    </form>
+  </div>
+<!-- Intro Jumbotron End -->
+  <!-- <div class="jumbotron" id="content"> -->
+    <h1 class="page-header">Pig Dice!</h1>
+    <!-- <div class="row"> -->
+<!-- Player 1 Start -->
+      <div class="<!--col-xs-4-->" id="dicebox-marg">
+        <h1><strong><span id="p1-name"></span></strong></h1>
+        <h3>Total Score: <span id="p1-score"></span></h3>
+        <h3>Turn Score: <span id="p1-turnscore"></span></h3>
+        <button type="button" class="btn btn-success" id="p1-roll">Roll Dice</button>
+        <button type="button" class="btn btn-danger" id="p1-hold">Hold</button>
+      </div>
+<!-- Player 1 End -->
+      <div class="col-xs-3 col-xs-offset-2">
+        <h3 id="turn-message"></h3>
+        <div id="die-box" class="dice">
+          <img src="img/1.png"/></div>
+      </div>
+<!-- Player 2 Start -->
+      <div class="col-xs-3">
+        <h1><strong><span id="p2-name"></span></strong></h1>
+        <h3>Total Score: <span id="p2-score"></span></h3>
+        <h3>Turn Score: <span id="p2-turnscore"></span></h3>
+        <button type="button" class="btn btn-success" id="p2-roll">Roll Dice</button>
+        <button type="button" class="btn btn-danger" id="p2-hold">Hold</button>
+      </div>
+<!-- Player 2 End -->
+    </div>
+    <button type="button" class="btn btn-info" id="restart-btn">Restart</button>
+    <button type="button" class="btn btn-primary" id="reset-gamepage">Reset the Game!</button>
+  </div>
+<!-- Win Jumbotron Start -->
+  <!-- <div class="jumbotron" id="win"> -->
+    <h1 class="page-header"><span id="winner-name"></h1>
+    <div class="rules">
+      <p>Congratulations on winning the game :)</p>
+    </div>
+      <button type="button" class="btn btn-primary" id="reset-winpage">Play Again</button>
+    </div>
+  <!-- </div> -->
+<!-- Win Jumbotron End -->
+<!-- Footer Start -->
+  <!-- <div class="nav">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
+      <div class="navbar-text pull-right">Site built by Shradha Pulla and Shatha Shaath</div>
+    </nav>
+  </div> -->
+<!-- Footer End -->
+
+
+  </body>
+</html>
