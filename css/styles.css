@@ -115,4 +115,6 @@ p {
 }
 #p2-name {
   padding-right: 40px;
+  position: relative;
+  right: 80px;
 }
