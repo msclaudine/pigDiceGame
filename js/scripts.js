@@ -31,11 +31,10 @@ Player.prototype.restart = function() {
   this.dice.innerHTML = 0;
 };
 
-
 $(document).ready(function() {
-  var newPlayer1 = new Player ();
-  var newPlayer2 = new Player ();
-  var newPlayerName = new Player ();
+  var newPlayer1 = new Player();
+  var newPlayer2 = new Player();
+  var newPlayerName = new Player();
   $("form#names-row").submit(function(event) {
     event.preventDefault();
     newPlayerName.pName();
@@ -82,3 +81,28 @@ $(document).ready(function() {
       $("#p1-roll, #p1-hold").prop("disabled", false);
     }
   });
+  $("#restart-btn").click(function() {
+    var restartQuestion = confirm(
+      "Are you sure you want to RESTART the game? This will make both the players' scores = 0."
+    );
+    if (restartQuestion === true) {
+      newPlayer1.restart();
+      newPlayer2.restart();
+      $("#p1-score").text(0);
+      $("#p2-score").text(0);
+      $("#p1-turnscore").text(0);
+      $("#p2-turnscore").text(0);
+    }
+  });
+  $("#reset-gamepage").click(function() {
+    var resetQuestion = confirm(
+      "Are you sure you want to RESET the game? This will take you back to the rules page."
+    );
+    if (resetQuestion === true) {
+      location.reload(); //location refers to current page which is the intro-content
+    }
+  });
+  $("#reset-winpage").click(function() {
+    location.reload();
+  });
+});
