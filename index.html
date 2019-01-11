@@ -2,30 +2,31 @@
 <html>
   <head>
     <title>PIG DICE GAME</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
- <!-- <div class="jumbotron" id="intro-content"> -->
+ <div class="jumbotron" id="intro-content">
     <h1 class="page-header">Welcome to the Pig Dice web game!</h1>
       
     <form id="names-row"> 
-      <!-- <div class="row"> -->
-        <!-- <div class="col-xs-6"> -->
+      <div class="row">
+        <div class="col-xs-6">
           <h3><strong>Player 1's Name:</strong></h3><input required class="form-control input-lg" type="text" id="p1input-name">
         </div>
-        <!-- <div class="col-xs-6"> -->
+        <div class="col-xs-6">
           <h3><strong>Player 2's Name:</strong></h3><input required class="form-control form-control-danger input-lg" type="text" id="p2input-name">
         </div>
         <button type="submit" class="btn btn-primary" id="startgame-btn">Start Game!</button>
-      <!-- </div> -->
+      </div>
     </form>
   </div>
 <!-- Intro Jumbotron End -->
-  <!-- <div class="jumbotron" id="content"> -->
+  <div class="jumbotron" id="content">
     <h1 class="page-header">Pig Dice!</h1>
-    <!-- <div class="row"> -->
+    <div class="row">
 <!-- Player 1 Start -->
-      <div class="<!--col-xs-4-->" id="dicebox-marg">
+      <div class="col-xs-4" id="dicebox-marg">
         <h1><strong><span id="p1-name"></span></strong></h1>
         <h3>Total Score: <span id="p1-score"></span></h3>
         <h3>Turn Score: <span id="p1-turnscore"></span></h3>
@@ -52,7 +53,7 @@
     <button type="button" class="btn btn-primary" id="reset-gamepage">Reset the Game!</button>
   </div>
 <!-- Win Jumbotron Start -->
-  <!-- <div class="jumbotron" id="win"> -->
+  <div class="jumbotron" id="win">
     <h1 class="page-header"><span id="winner-name"></h1>
     <div class="rules">
       <p>Congratulations on winning the game :)</p>
