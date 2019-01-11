@@ -61,10 +61,10 @@ h1 {
 }
 
 #die-box {
-  width: 100px;
-  height: 100px;
-  background: rosybrown;
-  border: rosybrown;
+  width: 150px;
+  height: 150px;
+  background: slategrey;
+  border: slategray;
   color: #ffffff;
   font-size: 100px;
   text-align: center;
@@ -118,3 +118,7 @@ p {
   margin-left: 75px;
   margin-right: 75px;
 }
+
+/* #footer {
+  margin-top: 100px;
+} */

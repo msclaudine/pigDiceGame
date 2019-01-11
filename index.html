@@ -10,10 +10,13 @@
   </head>
 
   <body>
- <div class="jumbotron" id="intro-content">
+
+<div class="jumbotron" id="intro-content">
     <h1 class="page-header">Welcome to the Pig Dice web game!</h1>
-      
-    <form id="names-row"> 
+    <!-- <div class="rules">
+      <p>"Pig Dice is a simple dice game played between two people. Each turn, a player repeatedly rolls a die until either a 1 is rolled (which makes the player lose their score that turn) or the player decides to "hold" (which allows a player to keep their turn score but ends their turn). The first player to score 100 or more points wins." - <a href="https://en.wikipedia.org/wiki/Pig_%28dice_game%29">Wikipedia</a></p>
+    </div> -->
+    <form id="names-row">
       <div class="row">
         <div class="col-xs-6">
           <h3><strong>Player 1's Name:</strong></h3><input required class="form-control input-lg" type="text" id="p1input-name">
@@ -41,7 +44,7 @@
       <div class="col-xs-3 col-xs-offset-2">
         <h3 id="turn-message"></h3>
         <div id="die-box" class="dice">
-          <img src="img/1.png"/></div>
+          <img src="img/5.png"/></div>
       </div>
 <!-- Player 2 Start -->
       <div class="col-xs-3">
@@ -64,15 +67,14 @@
     </div>
       <button type="button" class="btn btn-primary" id="reset-winpage">Play Again</button>
     </div>
-  <!-- </div> -->
+  </div>
 <!-- Win Jumbotron End -->
 <!-- Footer Start -->
-  <!-- <div class="nav">
+  <div class="nav">
     <nav class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
       <div class="navbar-text pull-right">Site built by Shradha Pulla and Shatha Shaath</div>
     </nav>
-  </div> -->
-<!-- Footer End -->
+  </div>
 
 
   </body>
