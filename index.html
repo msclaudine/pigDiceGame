@@ -11,26 +11,49 @@
 
   <body>
 
-<div class="jumbotron" id="intro-content">
-    <h1 class="page-header">Welcome to the Pig Dice web game!</h1>
-    <!-- <div class="rules">
-      <p>"Pig Dice is a simple dice game played between two people. Each turn, a player repeatedly rolls a die until either a 1 is rolled (which makes the player lose their score that turn) or the player decides to "hold" (which allows a player to keep their turn score but ends their turn). The first player to score 100 or more points wins." - <a href="https://en.wikipedia.org/wiki/Pig_%28dice_game%29">Wikipedia</a></p>
-    </div> -->
-    <form id="names-row">
-      <div class="row">
-        <div class="col-xs-6">
-          <h3><strong>Player 1's Name:</strong></h3><input required class="form-control input-lg" type="text" id="p1input-name">
+      <!-- <div class="jumbotron" id="intro-content">
+          <h1 class="page-header">Welcome to the Pig Dice web game!</h1>
+          <!-- <div class="rules">
+            <p>"Pig Dice is a simple dice game played between two people. Each turn, a player repeatedly rolls a die until either a 1 is rolled (which makes the player lose their score that turn) or the player decides to "hold" (which allows a player to keep their turn score but ends their turn). The first player to score 100 or more points wins." - <a href="https://en.wikipedia.org/wiki/Pig_%28dice_game%29">Wikipedia</a></p>
+          </div> -->
+          <!-- <form id="names-row">
+            <div class="row">
+              <div class="col-xs-6">
+                <h3><strong>Player 1's Name:</strong></h3><input required class="form-control input-lg" type="text" id="p1input-name">
+              </div>
+              <div class="col-xs-6">
+                <h3><strong>Player 2's Name:</strong></h3><input required class="form-control form-control-danger input-lg" type="text" id="p2input-name">
+              </div>
+              <button type="submit" class="btn btn-primary" id="startgame-btn">Start Game!</button>
+            </div>
+          </form>
+        </div> --> -->
+    
+  <div class="container">
+      
+    <div class="jumbotron" id="intro-content">
+          <h1 class="page-header">Welcome to the Pig Dice web game!</h1>
+          <!-- <div class="rules">
+            <p>"Pig Dice is a simple dice game played between two people. Each turn, a player repeatedly rolls a die until either a 1 is rolled (which makes the player lose their score that turn) or the player decides to "hold" (which allows a player to keep their turn score but ends their turn). The first player to score 100 or more points wins." - <a href="https://en.wikipedia.org/wiki/Pig_%28dice_game%29">Wikipedia</a></p>
+          </div> -->
+          <form id="names-row">
+            <div class="row">
+              <div class="col-xs-6">
+                <h3><strong>Player 1's Name:</strong></h3><input required class="form-control input-lg" type="text" id="p1input-name">
+              </div>
+              <div class="col-xs-6">
+                <h3><strong>Player 2's Name:</strong></h3><input required class="form-control form-control-danger input-lg" type="text" id="p2input-name">
+              </div>
+              <button type="submit" class="btn btn-primary" id="startgame-btn">Start Game!</button>
+            </div>
+          </form>
         </div>
-        <div class="col-xs-6">
-          <h3><strong>Player 2's Name:</strong></h3><input required class="form-control form-control-danger input-lg" type="text" id="p2input-name">
-        </div>
-        <button type="submit" class="btn btn-primary" id="startgame-btn">Start Game!</button>
-      </div>
-    </form>
-  </div>
+
 <!-- Intro Jumbotron End -->
   <div class="jumbotron" id="content">
-    <h1 class="page-header">Pig Dice!</h1>
+    <div class="panel-heading">
+    <h1 class="panel-title">PIG DICE GAME!</h1>
+    </div>
     <div class="row">
 <!-- Player 1 Start -->
       <div class="col-xs-4" id="dicebox-marg">
@@ -57,7 +80,9 @@
 <!-- Player 2 End -->
     </div>
     <button type="button" class="btn btn-info" id="restart-btn">Restart</button>
+    <div class="panel-footer">
     <button type="button" class="btn btn-primary" id="reset-gamepage">Reset the Game!</button>
+  </div>
   </div>
 <!-- Win Jumbotron Start -->
   <div class="jumbotron" id="win">
@@ -68,14 +93,14 @@
       <button type="button" class="btn btn-primary" id="reset-winpage">Play Again</button>
     </div>
   </div>
-<!-- Win Jumbotron End -->
-<!-- Footer Start -->
-  <div class="nav">
+<!-- Win Jumbotron End
+Footer Start
+   <div class="nav">
     <nav class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
       <div class="navbar-text pull-right">Site built by Shradha Pulla and Shatha Shaath</div>
     </nav>
   </div>
-
+</div> --> 
 
   </body>
 </html>

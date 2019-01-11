@@ -2,14 +2,16 @@ body {
   font-family: serif;
   color: #000000;
 }
-
+.container {
+  background-color: silver;
+}
 .navbar-inverse {
   background-color: #000000;
 }
 
 #intro-content {
   color: #000000;
-  background-color: #ffffff;
+  background-color: slategrey;
   margin-top: 200px;
   text-align: center;
 }
@@ -28,12 +30,6 @@ body {
   background-color: #ffffff;
   margin-top: 200px;
   text-align: center;
-}
-
-.page-header {
-  font-size: 65pt;
-  margin-bottom: 75px;
-  padding-bottom: 35px;
 }
 
 h1 {
