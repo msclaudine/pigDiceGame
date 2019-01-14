@@ -1,3 +1,4 @@
+
 body {
   font-family: serif;
   color: #000000;
@@ -9,7 +10,7 @@ body {
   background-color: #000000;
 }
 
-#intro-content {
+#names-row {
   color: #000000;
   background-color: slategrey;
   margin-top: 200px;
@@ -17,7 +18,7 @@ body {
 }
 
 #content {
-  display: none;
+  /* display: none; */
   color: #000000;
   background-color: #ffffff;
   margin-top: 100px;
@@ -81,10 +82,12 @@ h1 {
 #restart-btn {
   font-size: 15pt;
   margin-top: 35px;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: slategrey;
+  border-color: slategrey;
 }
-
+#reset-gamepage {
+  background-color: slategrey;
+}
 .btn-primary {
   font-size: 25pt;
   margin-top: 20px;

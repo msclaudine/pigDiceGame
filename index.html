@@ -11,26 +11,28 @@
   
   <div class="container">
       
-    <div class="jumbotron" id="intro-content">
+    <!-- <div class="jumbotron" id="intro-content"> -->
           <h1 class="page-header">Welcome to the Pig Dice web game!</h1>
           
           <form id="names-row">
-            <div class="row">
-              <div class="col-xs-6">
-                <h3><strong>Player 1's Name:</strong></h3><input required class="form-control input-lg" type="text" id="p1input-name">
-              </div>
-              <div class="col-xs-6">
-                <h3><strong>Player 2's Name:</strong></h3><input required class="form-control form-control-danger input-lg" type="text" id="p2input-name">
-              </div>
+            <!-- <div class="row"> -->
+              <!-- <div class="col-xs-6"> -->
+                <h3><strong>First Player Name:</strong></h3>
+                <input required  type="text" id="p1input-name"><br>
+              <!-- </div> -->
+              <!-- <div class="col-xs-6"> -->
+                <h3><strong>Second Player Name:</strong></h3>
+                <input required type="text" id="p2input-name"><br>
+              <!-- </div> -->
               <button type="submit" class="btn btn-primary" id="startgame-btn">Start Game!</button>
-            </div>
+            <!-- </div> -->
           </form>
-        </div>
+        <!-- </div> -->
 
 
   <div class="jumbotron" id="content">
     <div class="panel-heading">
-    <h1 class="panel-title">PIG DICE GAME!</h1>
+    <!-- <h1 class="panel-title">PIG DICE GAME!</h1> -->
     </div>
     <div class="row">
 
@@ -66,9 +68,9 @@
   <div class="jumbotron" id="win">
     <h1 class="page-header"><span id="winner-name"></h1>
     <div class="rules">
-      <p>Congratulations on winning the game :)</p>
+      <p>Congratulations! You win this game</p>
     </div>
-      <button type="button" class="btn btn-primary" id="reset-winpage">Play Again</button>
+      <button type="button" class="btn btn-primary" id="reset-winpage">New Game</button>
     </div>
   </div>
 
