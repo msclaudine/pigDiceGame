@@ -24,6 +24,13 @@ Git Hub Webpage: https://msclaudine.github.io/PigDiceGame
 
 ## SPECS
 
+The plogram allows two players to play
+The program should allows players to enter their names first to start game
+If the player rolls dice 1 the turn score becomes 0| Dice: 5, Turn Score: 5 | Dice: 2, Turn Score: 2
+If the player rolls 1 it becomes the next player's turn | Dice: 5, Turn Score: 5, Player1 | Dice: 1, Turn Score: 0, "It's the next player's turn!"
+If the player clicks "Hold" the turn score is transferred to the total score, and the turn score turns to 0
+If the player clicks "Hold" it becomes the next player's turn | Dice: 5, Turn Score: 5, Player1 | "It's Player2's turn"
+
 ## Known Bugs
 
 There are no known bugs yet.
