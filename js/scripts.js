@@ -12,7 +12,7 @@ Player.prototype.rollDice = function() {
   var diceOutput = Math.floor(Math.random() * 6) + 1;
   this.dice.innerHTML = diceOutput;
   if (diceOutput === 1) {
-    alert("You lost this turn, switch players!");
+    alert("You rolled 1, switch players!");
     $("#turn-message").text("It's the next player's turn!");
     this.turnScore = 0;
     this.dice.innerHTML = 0;
@@ -22,7 +22,7 @@ Player.prototype.rollDice = function() {
 };
 Player.prototype.hold = function() {
   this.totalScore += this.turnScore;
-  this.turnScore = 0; //Resets turnScore value at the end of each turn
+  this.turnScore = 0;
   this.dice.innerHTML = 0;
 };
 Player.prototype.restart = function() {
