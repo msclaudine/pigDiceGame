@@ -33,7 +33,7 @@ If the player clicks "Hold" it becomes the next player's turn | Dice: 5, Turn Sc
 
 ## Known Bugs
 
-There are no known bugs yet.
+The buttons for the current player does not disable once the current player rolls a 1 and forfeits the turn. The current player is able to keep playing until they click "Hold", which only then disables the other player's buttons.
 
 ## Technologies Used
 
